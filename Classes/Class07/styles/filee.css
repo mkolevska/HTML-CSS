@@ -1,0 +1,79 @@
+#font-face{
+    font-family:"Open Sans";
+    font-weight:normal;
+    font-style: normal;
+    src: url("../fonts/OpenSans_Condensed-Regular.ttf");
+}
+@font-face{
+    font-family: "Open Sans";
+    font-weight:bold;
+    font-style:normal;
+    src: url("../fonts/OpenSans_Condensed-Bold.ttf");
+
+}
+/*Google Fonts using inport at rule*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,300;1,400&display=swap');
+
+h1{
+    font-family: "Open Sans" Arial,sans-serif;
+}
+h2{
+    font-family:"Regular" sans-serif;
+}
+.small-size{
+    font-size: xx-small;
+    color:mediumspringgreen;
+    
+}
+.first-paragraph{
+    text-align: left;
+}
+.second-paragraph{
+    font-size: 20px;
+    font-style: italic;
+    text-align: right;
+    
+}
+.second-paragraph::first-letter{
+    font-size: 50px;
+    color:pink;
+    font-family: Bold,sans-serif;
+}
+.third-paragraph{
+    font-weight: bold;
+    word-spacing: 10px;
+    text-align: center;
+}
+.third-paragraph::first-line{
+    color:red;
+}
+.fourth-paragraph{
+    text-align: justify ;
+    
+}
+.font-weight-bold{
+    font-weight:bolder;
+    font-style: oblique;
+   
+
+    
+}
+.bird-image-text{
+    vertical-align:top;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2 px black;
+    background-color: burlywood;
+    font-weight: bold;
+}
+h3{
+    /*text-transform: uppercase;
+    text-decoration-style: dotted;
+    text-decoration-line:underline overline line-through;
+    text-decoration-color:navy;
+    text-decoration-thickness: 3px;*/
+    /*shorthand*/
+    text-decoration:orange dotted underline overline line-through 3px;
+    line-height: 3.5;
+    letter-spacing: 3px;
+}

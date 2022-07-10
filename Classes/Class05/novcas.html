@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+<title>Forms class 5</title>
+    </head>
+    <body>
+        <h2>Forms</h2>
+        <br>
+        <!--Submitbutton-->
+        <!--Formi ,Kako da sobirame podatoci od korisnici na strana,Validacija na formi ,-->
+        <!--Best known form on internet Google-->
+            <!--Building form-->
+            <form action="" method="GET"><fieldset>
+                <legend>Sign up form </legend>
+                <!--Prv nacin na vnesuvanje label-->
+                <b><label for="firstname:">Fisrtname:</label>
+                </b>
+                <input type="text"name="username" id="firstname">
+                <!--Second way of writing the label element email and sign up buttons-->
+               <br><br> <b><label form id="secondname:">Secondname:
+                    <input type="text" name="secondname" id="secondname" placeholder="enter your second name">
+                </label></b>
+                <br><br>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+                <label for="pass">Password</label>
+                <input type="password",name="password"id="pass"minlength="5">
+                <br><br>
+
+                <label for="gigcoments">What did you like about our page</label>
+                <textarea id="gigcoments"name="gigcoments">
+                    Enter your comments
+                </textarea>
+                <br><br>
+                <!--Text Area-->
+                <label>Tell us your expirience</label>
+                <textarea id="coments"name="coments"cols="40" rows="20"placeholder="Enter text" ></textarea>
+                <!--Radio Buttons-->
+                <input type="submit" value="signup">
+</fieldset>
+                </form>
+                <br><br>
+                <form action="" method="GET">
+                    <h3>Radio Buttons</h3>
+<p>Please select your favourite genres:</p>
+<input type="radio" name="genres" id="pop" value="pop" checked="">
+<label for="pop">Pop</label>
+<input type="radio"name="genres"id="rock"value="rock" >
+<label for="rock">Rock</label>
+<input type="radio"name="genres"id="classic"value="classic">
+<label for="classic">Classic</label> 
+<button>
+    <img src="plus.png" width="20">
+</button>
+<input type="hidden"name="product-code"value="1234">
+
+                </form>
+                <!--CheckBoxes-->
+<form action=""method="GET">
+    <p>Please select your favourite
+    </p>
+    <input type="checkbox" name="service" id="itunes" value="itunes">
+<label for="itunes">itunes</label>
+<input type="checkbox" name="service" id="livefm" value="livefm">
+<label for="livefm">itunes</label>
+<input type="checkbox" name="service" id="zona" value="zona">
+<label for="zona">itunes</label>
+<br>
+<br>
+<!--Dropdown and Selectbox-->
+<form action=""method="POST">
+<label for="devices">Please select </label>
+<select name="devices" id="devices">
+    <option value="" disabled selected="true" hidden >Please selct device</option>
+    <option value="Iphone">
+Iphone
+    </option>
+    <option value="Samsung" >
+        Samsung
+    </option>
+    <option value="Xiaomi">
+        Xiaomi
+    </option>
+</select>
+</form>
+</form>
+<br><br>
+<!--Multiple select box-->
+<form method="GET" action="">
+<label for="instrumets">Select the instruments:</label>
+<select name="instruments" id="instruments" multiple="multiple"size="4">
+<option value="guitar">Guitar</option>
+<option value="Drum">Drum</option>
+
+<option value="Bass">Bass</option>
+<option value="Contrabass">Contra</option>
+
+</select>
+
+</form>
+<br><br>
+<!--Form with file input-->
+<form method="POST"action="">
+    <label for="song">Upload your song</label>
+    <input type="file" name="songfile" id="song">
+    <input type="submit" value="sign up>"
+</form>          
+
+    </body>
+
+
+</html>

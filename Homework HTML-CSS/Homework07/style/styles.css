@@ -1,0 +1,260 @@
+/*Body structure*/
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color:whitesmoke;
+}
+/*Loading with top and bottom border*/
+.loading-one {
+    width: 500px;
+    height: 300px;
+    float: left;
+    background-color: red;
+}
+
+.one {
+    margin-top: 140px;
+    margin-left: 170px;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+
+.one p {
+    color: whitesmoke;
+    background-color: red;
+    padding: 10px;
+}
+
+p {
+    position: relative;
+}
+
+.first-text {
+    
+    position: relative;
+}
+
+.first-text::before {
+   content: '';
+   top: 0;
+    left: 0;
+    box-sizing: border-box;
+    position: absolute;
+ border-top: 8px solid white;
+    border-bottom: 8px solid white ;
+    height: 40px;
+    animation: firstloading 4s infinite linear;
+}
+
+@keyframes firstloading {
+    0% {
+        width: 0px;
+        opacity: 0.99;
+    }
+    
+    75% {
+width: 100px;
+opacity: 1;
+    }
+    100% {
+        width: 150px;
+        opacity: 0.02;
+    }
+}
+/*Loading without borders*/
+.loading-two{
+    width: 500px;
+    height: 300px;
+    float: left;
+    background-color: rgb(235, 16, 16);
+}
+.two{
+    text-align: center;
+    margin-top:130px ;
+    margin-left:170px ;
+    width:150px ;
+    height:30px ;
+}
+.two strong{
+    color: whitesmoke;
+    padding: 10px;
+}
+strong{
+    position: relative;
+}
+strong::before{
+    content: '';
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    position: absolute;
+    background-color:whitesmoke;
+    height: 40px;
+    animation:secondloading 4s infinite linear;
+}
+@keyframes secondloading {
+0%{
+    width: 0px;
+    opacity:0.99;
+
+}
+50%{
+    width: 100px;
+    opacity: 1;
+}
+
+100%{
+width: 150px;
+opacity:0.02;
+}
+    
+}
+
+/*Three Dots*/
+.dots-main{
+    width: 500px;
+    height: 300px;
+    float: left;
+    margin-top: 0px;
+    margin-right: 5000px;
+    background-color: rgb(235, 16, 16);
+}
+
+.under-main {
+    position: relative;
+    top: 40px;
+    left: 200px;
+}
+
+
+.first {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    right: 25px;
+}
+.center {
+    background-color: white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin-top: 110px;
+    margin-left: 10px;
+    display: inline-block;
+    position: absolute;
+    animation: spin ease-in-out 3s infinite;
+}
+.third {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 25px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+        transform-origin: center;
+    }
+    100% {
+        transform: rotate(360deg);
+        transform-origin: center;
+    }
+}
+.box{
+    display: flex;
+    width: 500px;
+    height: 300px;
+    margin-left: 500px;
+    margin-top: 0px;
+    float: left;
+    background-color: red;
+}
+.underbox div{
+    color: whitesmoke;
+    background-color: red;
+    padding: 10px;
+}
+.square {
+    width: 90px;
+    height: 100px;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 210px;
+}
+.square::before
+{
+content: '';
+box-sizing: border-box;
+position: absolute;
+background-color: whitesmoke;
+height: 100px;
+top:0px ;
+left: 0px;
+border-color: whitesmoke;
+animation: squares 7s infinite ease-out;
+}
+.square {
+    margin-top: 90px;
+    margin-left: 210px;
+    width: 80px;
+    height: 100px;
+    position: absolute;
+    
+}
+@keyframes squares {
+    0% {
+        width: 0;
+        opacity: 0.99;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        width: 100%;
+        opacity: 0.02;
+    }
+}
+/*Ball Animation*/
+.ball{
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 0.5px;
+    height: 0.5px;
+    border-radius: 50%;
+    position: relative;
+    animation: ballanimation 2s  infinite;
+}
+@keyframes ballanimation {
+    0% {
+        background-color: whitesmoke;
+        left: -30px;
+        top: -30px;
+    }
+    25% {
+        background-color: whitesmoke;
+        left: 100px;
+        top: -30px;
+    }
+    50% {
+        background-color: whitesmoke;
+        left: 100px;
+        top: 100px;
+    }
+    75% {
+        background-color: whitesmoke;
+        left: -30px;
+        top: 100px;
+    }
+    100% {
+        background-color: whitesmoke;
+        left: -30px;
+        top: -30px;
+    }
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+<title>Forms class 5</title>
+    </head>
+    <body>
+        <h2>StudentExrcise</h2>
+        <br>
+        <!--Submitbutton-->
+        <!--Formi ,Kako da sobirame podatoci od korisnici na strana,Validacija na formi ,-->
+        <!--Best known form on internet Google-->
+            <!--Building form-->
+            <form action="" method="GET"><fieldset>
+                <legend>Testform</legend>
+                <!--Prv nacin na vnesuvanje label-->
+                <b><label for="name:">Name:</label>
+                </b>
+                <input type="text"name="name" id="name">
+                <!--Second way of writing the label element email and sign up buttons-->
+               <br><br> 
+              
+                <label for="pass">Password</label>
+                <input type="password",name="password"id="pass"minlength="5" required>
+                <br><br>
+                <form action="" method="GET">
+                    
+<p>Gender</p>
+<input type="radio" name="gender" id="male" value="male" >
+<label for="male">Male</label>
+<br>
+<input type="radio"name="gender"id="female"value="female" >
+<label for="female">Female</label>
+<br><br>
+<form action=""method="POST">
+    <label for="devices">Continet </label>
+    <select name="devices" id="devices">
+        <option value="" disabled selected="true" hidden ></option>
+        <option value="Amerika">
+    Amerika
+        </option>
+        <option value="Evropa" >
+            Evropa
+        </option>
+        <option value="Afrika">
+            Afrika
+        </option>
+    </select>
+    </form>
+    <form action=""method="GET">
+        <p>Meal
+        </p>
+        <input type="checkbox" name="food" id="br" value="Breakfast">
+    <label for="br">Breakfast</label><br>
+    <input type="checkbox" name="food" id="lun" value="Lunch">
+    <label for="lun">Lunch</label><br>
+    <input type="checkbox" name="food" id="din" value="Diner">
+    <label for="din">Diner</label><br>
+    </form>
+    <br>
+    <br>
+                
+                <br><br>
+                <!--Text Area-->
+                <label>Remark</label>
+                <textarea id="coments"name="coments"cols="30" placeholder="Enter text" ></textarea>
+                <!--Radio Buttons-->
+                <input type="submit" value="Send">
+                
+                <!--Radio Buttons-->
+                <input type="reset" value="Cancel">
+</fieldset>
+                </form>
+                </body>
+                </html>

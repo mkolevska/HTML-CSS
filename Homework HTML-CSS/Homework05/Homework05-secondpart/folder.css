@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&display=swap');
+*{
+    font-family: 'Corinthia',Arial, cursive;
+    font-weight: bold;
+}
+body{
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+    background-color: tomato;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    font-family: ;
+    font-weight: ;
+    display: grid;
+}
+header{
+   background-color: aqua;
+   background-image: url("sliki/galaxy.jpg");
+   background-size: 122%;
+   background-position: center;
+    padding: 20px;
+    height: 400px;
+    color: white;
+    text-align: center;
+}
+header a{
+    color: whitesmoke;
+    text-decoration: none;
+    
+    
+}
+header .logo a{
+    background-image: url("sliki/3-37893_freetoedit-clipart-stars-galaxy-transparent-background-planet-png.png");
+    background-size:70px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width:70px ;
+    position: relative;
+    top: -10px;
+    text-indent: -999999999px;
+    height:80px;
+    background-color: transparent;
+}
+header .logo a:hover{
+   
+}
+main{
+    background-color:white;
+    padding: 20px;
+}
+.section{
+    background:white;
+    color: rgb(158, 19, 66);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.section.first {
+   
+    margin:auto;
+    text-align: center;
+}
+.section.first figure img{
+    border: 1px solid white;
+    box-shadow: grap 0 0 10px;
+    border-radius: 50%;
+    width:200px ;
+
+}
+div{
+    background: white;
+    color: blueviolet;
+    display: inline-block;
+    width: 120px;
+    margin: auto;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    margin-right: 0 20px 0 0;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: blueviolet;
+}
+footer{
+    background-color: pink;
+    padding: 10px 30px;
+    color: rgb(214, 16, 49);
+    font-size: 12px;
+    text-align: center;
+    padding: 20px 20px;
+}

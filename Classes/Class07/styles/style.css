@@ -1,0 +1,21 @@
+*{
+color: rgb(130,50,120);
+}
+.label{
+    color:aqua;
+}
+.label.two{
+    color:darkmagenta;
+}
+#btn{
+    color:white;
+    background-color: rgba(0, 0, 0, 0.529);
+}
+p{
+   /* background-color:rgb(12, 12, 12) ;*/
+background-color: hlsa(40, 50%, 78%.0.5);
+}
+span{
+    color:indianred;
+    background-color: mediumblue;
+}

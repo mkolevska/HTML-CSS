@@ -1,0 +1,32 @@
+
+.first-element,
+.second-element,
+.third-element{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    background: lightseagreen;
+}
+@media screen and (max-width: 480px) {
+    body{
+        background-color: mediumpurple;
+
+}
+@media screen and (min-width: 800px) {
+    .first-element,
+    .second-element,
+    .third-element{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 800px) and (min-width: 480px){
+    .first-element,
+    .second-element,
+    .third-element,
+    body{
+        background: magenta;
+    }
+    
+}

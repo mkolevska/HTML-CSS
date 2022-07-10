@@ -1,0 +1,44 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+article{
+    color:  rgb(10, 21, 182) !important;
+}
+
+.blue-background{
+    color:blue;
+}
+#secondp{
+    color:coral;
+}
+body{
+    background-color:lightpink;
+}
+li > a
+{
+font-weight: bold;
+color:rgb(141, 31, 12);
+}
+li a {
+    font-weight: bold;
+}
+
+.last-aside-home> h5+p, .last-aside-home>h4{
+    font-style:oblique;
+}
+.last-aside-home > h5~p{
+    font-size: 10px;
+}
+#art> h5{
+
+}
+article>h5 #art{
+
+}
+nav {
+    color:orangered;
+
+}
+input{
+    color: inherit;
+}

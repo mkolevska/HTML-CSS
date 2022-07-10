@@ -1,0 +1,30 @@
+p{
+    display: inline-block;
+}
+p::first-line{
+    color: red;
+    text-transform: uppercase;
+}
+p::first-letter{
+    font-size: 50px;
+    color:green;
+    float: right;
+}
+p::before{
+    content: 'Text in before';
+}
+p::after{
+    content: 'Bla bla bla';
+}
+textarea{
+    display: inline-block;
+}
+textarea::first-letter{
+    color:yellow;
+    font-size: 40px;
+
+}
+p::selection{
+    background-color: red;
+    color: yellow;
+}

@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: tomato;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 60%;
+    margin: 0 auto;
+}
+h1{
+    color: white;
+    padding: 3em 0;
+    font-size: 30px;
+}
+article{
+    background-color: white;
+    padding: 5em;
+    margin: 20px 0;
+}
+.h2{
+    font-size: 18px;
+    color:violet;
+    text-transform: uppercase;
+    padding: 2em 0;
+}
+.parent{
+    border: 5px solid rgb(107, 32, 178);
+}
+.intem{
+    background-color: deepskyblue ;
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 15px 0;
+    margin: 5px;
+}
+/*Display flex*/
+.example-flex{
+    display: -webkit-box;
+    display: -mox-flex;
+    display: -ms-flex;
+    display: flex;
+
+}
+/*Fex Direction*/
+.example-direction{
+    display: flex;
+    /*row row-reverse colum anf colum-reverse*/
+    flex-direction: row-reverse;
+    
+}
+.example-direction .intem{
+    width: 50px;
+}
+.example-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    /* nowrap wrap wrap-revese*/
+    flex-wrap:wrap;
+    /*Shorthand FlexFlow property first value flex-dirextion second flex-wrap*/
+    flex-flow: row wrap;
+}
+.example-wrap .intem{
+    width: 150px;
+
+}
+/* Flex Basis*/
+.example-basis{
+display: flex;
+
+}
+.example-basis .intem{
+    flex-basis: 150px;
+    /*Shorthand writing pf flex-grow , flex-shrink,flex-basis*/
+    flex: 1 1 150px;
+}
+.example-grow{
+    display: flex;
+}
+.example-grow .intem{
+    flex-grow: 1;
+    width: 50px;
+
+}
+.example-grow .intem:nth-child(2){
+    flex-grow: 2;
+    background-color: firebrick;
+}
+.example-grow .intem:nth-child(5){
+    flex-grow: 3;
+}
+/*Flex Shrink*/
+.example-shrink{
+display: flex;
+}
+.example-shrink .intem{
+    width: 150px;
+    flex-shrink: 1;
+    
+}
+.example-shrink .intem:nth-child(2){
+    flex-shrink: 2;
+}
+.example-shrink .intem:nth-child(4){
+    flex-shrink: 3;
+}
+/*Align Intems*/
+.example-align{
+    display: flex;
+    height: 250px;
+    /*strech,flex-start,flex-end,center*/
+    align-items: center;
+}
+.example-align .intem{
+    width: 50px;
+    height: 50px;
+}
+
+.example-justify{
+    display: flex;
+    /*flex-start enter space around between space*/
+    justify-content:space-between ;
+}
+.example-justify .intem{
+    width: 50px;
+}
+.example-align-content{
+    display: flex;
+    height: 400px;
+    flex-wrap: wrap;
+    /* spacearound spacebetween*/
+    align-content: space-between;
+}
+.example-align-content .intem{
+    width: 200px;
+    height: 30px;
+}
+.exaple-order{
+    display: flex;
+}
+.exaple-order .intem{
+    width: 50px;
+}
+.example-order .intem:nth-child(1){
+    order:3;
+}
+.example-order .intem:nth-child(2){
+    order: 5;
+}

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&display=swap');
+
+@font-face{
+    src: url(/fonts/Nosifer-Regular.ttf);
+    font-family: nossifer;
+
+    
+}
+@font-face {
+    font-family: meow;
+    src: url(/fonts/MeowScript-Regular.ttf);
+}
+
+body{
+    background-color: palevioletred;
+    color: white;
+}
+h1{
+    font-family: 'Corinthia',Arial, cursive;
+    text-align: center;
+}
+li{
+display:inline-block;
+margin: 0 0 20px 0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-decoration: none;
+width: 10%;
+}
+a{
+    background-color:transparent ;
+    padding: 20px;
+}
+a:link{
+    text-decoration: none;
+    color: deepskyblue;
+}
+a:hover{
+    background-color: fuchsia;
+}
+a:visited{
+    color: darkmagenta;
+
+}
+a:focus{
+    background-color: rgb(209, 92, 133);
+}
+li a img{
+    width: 50px;
+   image-orientation:initial;
+}
+p{
+    text-align: center;
+}
+.first-paragpraph{
+    font-family: 'Pacifico',Arial, cursive;
+}
+.second-paragraph{
+    font-family: nossifer;
+}
+.about-paragraph{
+    font-family: 'Noto Sans HK',Arial, sans-serif;
+}
+.about-paragraph-two{
+    font-family: 'Homemade Apple',Arial, cursive;
+}
+.contact-first{
+    font-family: meow;
+    text-align: center;
+
+}
+
+div{
+    font-family: nossifer;
+}
+
+footer{
+    text-align: center;
+    font-family: 'Corinthia',Arial, cursive;
+}

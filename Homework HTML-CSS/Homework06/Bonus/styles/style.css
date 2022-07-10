@@ -1,0 +1,143 @@
+
+  
+  body {
+    margin: 0; 
+    align-items: center;
+  }
+  
+  img {
+    display: inline-block; }
+ ul{
+    list-style-type: none;
+    display: grid;
+    grid-auto-flow: dense;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr min-content;
+    
+   
+    
+ }   
+  
+  ul, li {
+    
+    padding: 0;
+    margin: 0;
+    list-style: none; }
+li{
+    display: list-item;
+    
+}
+
+.main-class img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover; }
+
+.main-class ul {
+  background:black;
+  -webkit-clip-path: polygon(10px 6px, calc(100% - 7px) 6px, calc(100% - 7px) calc(100% - 6px), 10px calc(100% - 6px));
+  clip-path: polygon(3px 1px, calc(100% - 7px) 6px, calc(100% - 7px) calc(100% - 6px), 10px calc(100% - 6px)); 
+}
+
+.main-class li{
+  border: 6px solid black; }
+
+.main-class {
+  margin: -8px -8px -8px -10px;
+  width: fit-content(20em);
+  
+  }
+  .main-class ul {
+    
+    display: grid;
+    grid-template-columns: repeat(5, 1fr) 1.2fr 1.2fr 0.5fr;
+    grid-template-rows: 11vw repeat(5, 13vw) 11vw 6.5vw 6.5vw; }
+
+
+  
+  
+  .one{
+
+    grid-column: span 6px; }
+  
+  .two{
+    
+    grid-column: span 3; }
+  
+  .three {
+    
+    grid-column: span 2; }
+  
+  .four{
+
+    grid-row: span 6; }
+  
+  .five{
+    
+    grid-row: span 2; }
+  
+  .six {
+    
+    grid-column: span 4;
+    grid-row: span 4; }
+  
+  .seven {
+    
+    grid-row: span 2;
+    grid-column: span 2; }
+  
+  .eight {
+    
+    grid-row: span 3; }
+  
+  .nine{
+    
+    grid-row: span 2; }
+  
+  .ten {
+    
+    grid-row: span 2; }
+  
+  .eleven {
+    
+    grid-row: span 2;
+    grid-column: span 2; }
+  
+  .twelve {
+   
+    grid-column: span 2; }
+  
+  .thirteen {
+   
+    grid-column: span 2; }
+  
+  .fourteen {
+    
+    grid-row: span 3; }
+  
+  .fifteen {
+    
+    grid-column: span 2; }
+  
+  .sixteen {
+    
+    grid-row: span 2;
+    grid-column: span 2; }
+  
+  .seventeen {
+   
+    grid-row: span 3; }
+  
+  .eighteen {
+    
+    grid-column: span 2;
+    grid-row: span 2; }
+  
+  .nineteen{
+    
+    grid-column: span 2; }
+  
+  .twenty{
+    grid-column: span 4; }
+  

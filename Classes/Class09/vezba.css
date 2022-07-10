@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    background: pink;
+}
+nav,header,footer,aside,section {
+    background-color: gray;
+    margin: 5px;
+}
+.header, .footer{
+    background: palevioletred;
+    height: 50px;
+   
+    
+}
+.nav{
+    height: 20px;
+}
+.main-class{
+
+    height: 300px;
+    
+}
+.aside, .main-class-second{
+    height: 300px;
+
+}
+
+.aside{
+    float: left;
+    width: calc(20% -10px);
+    background-color: chartreuse;
+    
+    
+    
+}
+.main-class-second{
+    
+    background-color:blueviolet;
+    width: calc(80% -10px);
+    float: right;
+   
+   
+}
+footer{
+    
+    background: lime;
+ 
+    clear: both;
+}

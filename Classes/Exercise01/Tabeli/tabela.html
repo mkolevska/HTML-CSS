@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>tables</title>
+</head>
+<body>
+
+<a href="../file.html">Prv fajl</a>
+<!--HTML tabeli osnovni strukturi na tabelite,ne se koristat za layouti-->
+<!--Basic Structure Table-->
+  <table border="2">
+      <thead>
+          <th>Name</th>
+          <th>Contry</th>
+      </thead>
+      <tbody>
+          <tr> 
+              <td colspan="1">
+                Smith
+                  </td>
+                  <td>
+Us
+          </td>
+        </tr>
+          <tr>
+              <td rowspan="1">
+John
+              </td>
+              <td>
+UK
+              </td>
+          </tr>
+          <tr>
+              <td>
+Ana
+              </td>
+              <td>
+Macedonia 
+              </td>
+          </tr>
+
+
+
+      </tbody>
+
+
+
+
+
+  </table>
+  <table border="2">
+    <thead>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <th>Name</th>
+        <th>Contry</th>
+        <th>Values</th>
+    </thead>
+    <tbody>
+        <tr> 
+            <td colspan="1">
+              Smith
+                </td>
+                <td>
+Us
+        </td>
+        <td>1.000,00</td>
+      </tr>
+        <tr>
+            <td rowspan="1">
+John
+            </td>
+            <td>
+UK
+            </td>
+            <td>
+                2.000,00
+            </td>
+        </tr>
+        <tr>
+            <td>
+Ana
+            </td>
+            <td>
+Macedonia 
+            </td>
+            <td>
+                3.000,00
+            </td>
+        </tr>
+
+
+
+    </tbody>
+<table border="2">
+    <colgroup>
+        <col span="">
+    <thead>
+<tr>
+    <th></th>
+    <th>9am</th>
+    <th>10am</th>
+    <th>11am</th>
+    <th>12am</th>
+</tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>Monday</th>
+            <td colspan="2" bgcolor="red">Geography</td>
+            <!--We don't need this cell when we have colspan -->
+            <!-- <td></td> -->
+            <td>Music</td>
+            <td rowspan="2">Art</td>
+            
+        </tr>
+        <tr>
+            <th>Thuesday</th>
+                <td colspan='3'>Gym</td>
+                
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td>Art</td> -->
+            
+        </tr>
+
+    </tbody>
+</table>
+
+
+
+
+</table>
+
+</body>
+
+
+</html>
